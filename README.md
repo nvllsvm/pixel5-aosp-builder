@@ -1,5 +1,5 @@
 # Pixel 5 AOSP Builder
-Build and flash AOSP to the Pixel 5 using only a Docker image
+Build and flash AOSP to the Pixel 5 using only a Docker
 
 ## Building
 ```
