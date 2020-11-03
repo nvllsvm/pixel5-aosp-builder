@@ -19,7 +19,3 @@ source build/envsetup.sh
 
 lunch aosp_redfin-userdebug
 m droid -j32
-
-rm -rf dist_output
-mkdir dist_output
-make dist DIST_DIR=dist_output
