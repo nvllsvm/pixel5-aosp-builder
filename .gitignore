@@ -1,0 +1,7 @@
+*
+!/.dockerignore
+!/.gitignore
+!/Dockerfile
+!/README.md
+!/build.sh
+!/flash.sh
