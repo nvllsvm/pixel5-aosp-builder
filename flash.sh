@@ -4,4 +4,4 @@ set -e
 source build/envsetup.sh
 lunch aosp_redfin-userdebug
 
-fastboot flashall "$@"
+fastboot flashall -w
