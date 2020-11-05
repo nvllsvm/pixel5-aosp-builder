@@ -10,6 +10,7 @@ driver_package_urls=(
 )
 for url in ${driver_package_urls[*]}; do
     curl "$url" | tar -xz -O > extract_drivers.sh
+    chmod +x extract_drivers.sh
     # bypass interactive license prompt
     printf "\nI ACCEPT\n" | ./extract_drivers.sh | tee
     rm extract_drivers.sh
